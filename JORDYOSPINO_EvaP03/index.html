@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnePage Ejemplo</title>
+    <link rel="stylesheet" href="css/index01.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+  
+    <header>
+        <div class="logo">
+            <img src="imagen/logo-isil.png" alt="Tu Logotipo">
+        </div>
+        <nav class="navigation">
+            <a href="#video"><i class="fa fa-home"></i> Inicio</a>
+            <a href="#form"><i class="fa fa-envelope"></i> Datos</a>
+            <a href="#map"><i class="fa fa-map"></i> Mapas</a>
+            <a href="#gallery"><i class="fa fa-images"></i> Galería</a>
+        </nav>
+    </header>
+
+    
+    <section id="video" class="video-section">
+        <video autoplay muted loop class="background-video">
+            <source src="imagen/video.mp4" type="video/mp4">
+        </video>
+        <div class="video-overlay">
+            <h1>Bienvenido a ISIL</h1>
+            <a href="#form" class="btn">Ingresar a mi Página</a>
+        </div>
+    </section>
+
+  
+    <section class="section-header">
+        <h2>ENVÍA TUS DATOS</h2>
+        <p>A continuación podrás subir tus datos para enviarte más información y novedades.</p>
+    </section>
+
+  
+    <section id="form" class="grid-section">
+        <div class="grid-item">
+            <img src="imagen/foto1.jpg" alt="Imagen">
+        </div>
+        <div class="grid-item">
+            <form>
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Correo:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <section class="seccion3">
+        <h2>NUESTRA UBICACIÓN</h2>
+        <p>Temostraremos como puedes llegar a nuestras sedes</p>
+    </section>
+
+
+   
+    <section id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.8060719535797!2d-77.02741122415132!3d-12.125417443371731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c81c605ea5e1%3A0x17328a8b49d37914!2sISIL%20-%20Miraflores!5e0!3m2!1ses!2spe!4v1731789124059!5m2!1ses!2spe" 
+        width="100%" height="900" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="seccion2">
+        <h2>NUESTRA GALERÍA DE FOTOS</h2>
+        <p>Te compartimos fotos del día a día en nuestras sedes</p>
+    </section>
+
+
+  
+    <section id="gallery" class="gallery">
+        <h2>Galería</h2>
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="imagen/imagen1.jpg" alt="Imagen 1">
+                <p>Alumnos hablando</p>
+            </div>
+            <div class="gallery-item">
+                <img src="imagen/imagen2.jpg" alt="Imagen 2">
+                <p>Estudiando en el parque</p>
+            </div>
+            <div class="gallery-item">
+                <img src="imagen/imagen3.jpg" alt="Imagen 3">
+                <p>compartiendo apuntes</p>
+            </div>
+            <div class="gallery-item">
+                <img src="imagen/imagen4.jpg" alt="Imagen 4">
+                <p>diseño web</p>
+            </div>
+            <div class="gallery-item">
+                <img src="imagen/imagen5.jpg" alt="Imagen 5">
+                <p>Break dance- actividades extracurriculares</p>
+            </div>
+            <div class="gallery-item">
+                <img src="imagen/imagen6.jpg" alt="Imagen 6">
+                <p>Asesoría y acompañamiento estudiantil</p>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div>
+                <a href="#"><i class="fa-brands fa-facebook"></i></i></a>
+                <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+            <div>
+                <p>Jordy Ospino Cabanillas</p>
+            </div>
+            <div>
+                <p>943948764</p>
+            </div>
+            <div>
+                <p>Instituto ISIL, Miraflores, Lima</p>
+            </div>
+            <div>
+                <p>Carrera: Diseño estratégico e innovación - 2024</p>
+            </div>
+            <div>
+                <p>Profesor: Roberto Inga</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
